@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_profil"
+            android:icon="@mipmap/ic_account_circle_black_24dp"
+            android:title="Profil" />
+        <item
+            android:id="@+id/nav_ajTrajet"
+            android:icon="@mipmap/ic_add_black_24dp"
+            android:title="Ajouter un trajet" />
+        <item
+            android:id="@+id/nav_trajets"
+            android:icon="@mipmap/handmade_travel_baggage"
+            android:title="Mes trajets" />
+        <item
+            android:id="@+id/nav_srchCovoit"
+            android:icon="@mipmap/ic_search_black_24dp"
+            android:title="Chercher un covoiturage" />
+        <item
+            android:id="@+id/nav_evalTrajet"
+            android:icon="@mipmap/edit"
+            android:title="Evaluer un trajet" />
+        <item
+            android:id="@+id/nav_stats"
+            android:icon="@mipmap/business_statistics_graphic"
+            android:title="Statistiques" />
+        <item
+            android:id="@+id/nav_quitter"
+            android:icon="@mipmap/ic_exit_to_app_black_24dp"
+            android:title="Quitter" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_send"
+                android:icon="@drawable/ic_menu_send"
+                android:title="Send" />
+        </menu>
+    </item>
+
+</menu>
